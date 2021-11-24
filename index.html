@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+    background: linear-gradient(to bottom, yellow,skyblue);
+    }
+        .form{
+            line-height: 2;
+            width: 100%;
+        }
+        .box{
+            width: 100%;
+           text-align: center;
+           height: 25px;
+        }
+        #hand{
+            cursor: pointer;
+        }
+        .box:hover{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Register Form</h2>
+    <p>Please enter the form</p>
+    <hr>
+    <div class="form">
+        <label for="Email" >Email</label><br>
+        <input class="box" id="hand" type="text" placeholder="Enter the email">
+        <br>
+        <label for="Password">Password</label><br>
+        <input class="box"  id="hand" type="password" placeholder="Enter the Password" >
+        <br>
+        <label for="repeat Password">Repeat Password</label><br>
+        <input class="box" id="hand" type="password" placeholder="" >
+        <br>
+        <input  type="checkbox" id="hand">
+        <label for="Remember me">Remember me</label> <br>
+        <div class="box">
+        <span  class="box">agree all condition and </span><a href="">terms and Privacy</a><br>
+    </div>
+        <input class="box" type="submit" id="hand" value="Register"><br>
+        <div class="box">
+        <span>Already have an account? <a href="">Sign in</a></span>
+    </div>
+
+    </div>
+
+</div>
+</body>
+</html>
